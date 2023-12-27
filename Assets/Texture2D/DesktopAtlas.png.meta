@@ -1,0 +1,350 @@
+fileFormatVersion: 2
+guid: 3557358ca40e2804a9cdbacca4c83e44
+timeCreated: 1703700742
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DesktopAtlas_0
+    21300002: DesktopAtlas_1
+    21300004: DesktopAtlas_2
+    21300006: DesktopAtlas_3
+    21300008: DesktopAtlas_4
+    21300010: DesktopAtlas_5
+    21300012: DesktopAtlas_6
+    21300014: DesktopAtlas_7
+    21300016: DesktopAtlas_8
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 512
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DesktopAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 22.07612
+        y: 327.0268
+        width: 86.84776
+        height: 113.8971
+      alignment: 9
+      pivot: {x: 0.5057572, y: 0.535336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: -56.97533}
+        - {x: -43.5, y: -19.97533}
+        - {x: -43.5, y: 57.02467}
+        - {x: 26.5, y: 57.02467}
+        - {x: 43.5, y: 52.02467}
+        - {x: 43.5, y: -5.97533}
+        - {x: 36.5, y: -50.97533}
+        - {x: 22.5, y: -56.97533}
+      physicsShape:
+      - - {x: 30.5, y: -34.97533}
+        - {x: 30.5, y: -27.97533}
+        - {x: 39.5, y: 33.02467}
+        - {x: 40.5, y: 45.02467}
+        - {x: 26.5, y: 54.02467}
+        - {x: 15.5, y: 57.02467}
+        - {x: 1.5, y: 57.02467}
+        - {x: -4.5, y: 56.02467}
+        - {x: -15.5, y: 54.02467}
+        - {x: -34.5, y: 50.02467}
+        - {x: -40.5, y: 50.02467}
+        - {x: -43.5, y: 45.02467}
+        - {x: -43.5, y: 34.02467}
+        - {x: -41.5, y: 28.02467}
+        - {x: -32.5, y: -29.97533}
+        - {x: -31.5, y: -41.97533}
+        - {x: -26.5, y: -48.97533}
+        - {x: -13.5, y: -53.97533}
+        - {x: -5.5, y: -53.97533}
+        - {x: 5.5, y: -51.97533}
+        - {x: 22.5, y: -46.97533}
+        - {x: 27.5, y: -44.97533}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DesktopAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 5.026751
+        y: 198.0761
+        width: 121.8971
+        height: 110.8478
+      alignment: 9
+      pivot: {x: 0.5002025, y: 0.5496175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.97532, y: -55.50001}
+        - {x: -60.97532, y: -44.50001}
+        - {x: -60.97532, y: 54.49999}
+        - {x: -58.97532, y: 55.49999}
+        - {x: -36.97532, y: 55.49999}
+        - {x: 61.02468, y: 27.49999}
+        - {x: 61.02468, y: -48.50001}
+        - {x: 55.02468, y: -55.50001}
+      physicsShape:
+      - - {x: 58.02468, y: 23.49999}
+        - {x: 56.02468, y: 25.49999}
+        - {x: 50.02468, y: 27.49999}
+        - {x: -39.97532, y: 54.49999}
+        - {x: -51.97532, y: 55.49999}
+        - {x: -57.97532, y: 55.49999}
+        - {x: -60.97532, y: 50.49999}
+        - {x: -60.97532, y: -14.50001}
+        - {x: -58.97532, y: -18.50001}
+        - {x: -36.97532, y: -24.50001}
+        - {x: -35.97532, y: -39.50001}
+        - {x: -27.97532, y: -44.50001}
+        - {x: -12.97532, y: -49.50001}
+        - {x: 1.024681, y: -52.50001}
+        - {x: 21.02468, y: -52.50001}
+        - {x: 30.02468, y: -44.50001}
+        - {x: 53.02468, y: -49.50001}
+        - {x: 58.02468, y: -41.50001}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DesktopAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 26.02675
+        y: 70.02675
+        width: 81.89713
+        height: 107.8971
+      alignment: 9
+      pivot: {x: 0.488091, y: 0.5558373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.97532, y: -53.97532}
+        - {x: -40.97532, y: -44.97532}
+        - {x: -40.97532, y: 54.02468}
+        - {x: 22.02468, y: 54.02468}
+        - {x: 41.02468, y: 35.02468}
+        - {x: 41.02468, y: -53.97532}
+      physicsShape:
+      - - {x: -40.97531, y: 54.02468}
+        - {x: -40.97531, y: -46.97532}
+        - {x: -35.97532, y: -50.97532}
+        - {x: 38.02468, y: -50.97532}
+        - {x: 38.02468, y: 29.02468}
+        - {x: 11.02468, y: 54.02468}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DesktopAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 44
+        width: 33
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: -10}
+        - {x: -16.5, y: 10}
+        - {x: 16.5, y: 10}
+        - {x: 16.5, y: -10}
+      physicsShape:
+      - - {x: -16.5, y: 9.999999}
+        - {x: -16.5, y: -9.999999}
+        - {x: 16.5, y: -9.999999}
+        - {x: 16.5, y: 5}
+        - {x: 12.5, y: 9.999999}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DesktopAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: -10}
+        - {x: -6.5, y: 10}
+        - {x: 6.5, y: 10}
+        - {x: 6.5, y: -10}
+      physicsShape:
+      - - {x: -6.5, y: 9.999999}
+        - {x: -6.5, y: -9}
+        - {x: -4.5, y: -9.999999}
+        - {x: 6.5, y: -9.999999}
+        - {x: 6.5, y: 1}
+        - {x: -1.5, y: 9.999999}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DesktopAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 21
+        width: 23
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -11}
+        - {x: -11.5, y: 11}
+        - {x: 11.5, y: 11}
+        - {x: 11.5, y: -11}
+      physicsShape:
+      - - {x: -11.5, y: 11}
+        - {x: -11.5, y: -11}
+        - {x: 11.5, y: -11}
+        - {x: 11.5, y: 11}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DesktopAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 21
+        width: 22
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -11}
+        - {x: -11, y: 11}
+        - {x: 11, y: 11}
+        - {x: 11, y: -11}
+      physicsShape:
+      - - {x: -11, y: 11}
+        - {x: -11, y: -11}
+        - {x: 11, y: -11}
+        - {x: 11, y: 11}
+      - - {x: -4, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: -4}
+        - {x: -4, y: -4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DesktopAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 21
+        width: 22
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -11}
+        - {x: -11, y: 11}
+        - {x: 11, y: 11}
+        - {x: 11, y: -11}
+      physicsShape:
+      - - {x: -8, y: 4}
+        - {x: -11, y: 3}
+        - {x: -11, y: -1}
+        - {x: -4, y: -11}
+        - {x: 1, y: -11}
+        - {x: 11, y: -1}
+        - {x: 11, y: 1}
+        - {x: 8, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DesktopAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 45
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -15.5}
+        - {x: -22.5, y: 15.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 22.5, y: -15.5}
+      physicsShape:
+      - - {x: -22.5, y: 15.5}
+        - {x: -22.5, y: -15.5}
+        - {x: 20.5, y: -15.5}
+        - {x: 22.5, y: -13.5}
+        - {x: 22.5, y: 13.5}
+        - {x: 20.5, y: 15.5}
+      - - {x: -1.5, y: -3.5}
+        - {x: 4.5, y: -1.5}
+        - {x: -3.5, y: -6.5}
+        - {x: -2.5, y: -6.5}
+      - - {x: -2.5, y: 3.5}
+        - {x: 2.5, y: 3.5}
+        - {x: 1.5, y: 4.5}
+        - {x: -4.5, y: 5.5}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag:
+  userData:
+  assetBundleName:
+  assetBundleVariant:

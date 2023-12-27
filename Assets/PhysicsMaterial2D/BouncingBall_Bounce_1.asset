@@ -1,0 +1,7 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!62 &6200000
+PhysicsMaterial2D:
+  m_Name: BouncingBall_Bounce_1
+  friction: 0.4
+  bounciness: 0.65

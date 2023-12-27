@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Global
+  - UI Control
+  - FailCollider
+  - SuccessCollider
+  - AwardControl
+  - Audio
+  - GlobalCollider
+  - InventoryControl
+  - Inventory Sprite
+  - Steam
+  - Localization
+  - Snowflakes
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Front
+  - Back
+  - Individual
+  - No touching
+  - 
+  - Prlx 1
+  - Prlx 1 - No touching
+  - 
+  - Prlx 2
+  - Prlx 2 - No Touching
+  - 
+  - QueueFront
+  - QueueBack
+  - 
+  - Console
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 297308471
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Top
+    uniqueID: 2230319589
+    locked: 0
+  - name: Front
+    uniqueID: 3447909101
+    locked: 0
