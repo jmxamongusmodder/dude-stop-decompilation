@@ -52,7 +52,7 @@ public class loadMenu : scrollMenuClass
 		{
 			int siblingIndex = list.IndexOf(saveSlot.lastTime.text);
 			saveSlot.transform.SetSiblingIndex(siblingIndex);
-			saveSlot.GetComponent<Image>().color = this.colorList[num++];
+			// saveSlot.GetComponent<Image>().color = this.colorList[num++];
 			if (num >= this.colorList.Length)
 			{
 				num = 0;
