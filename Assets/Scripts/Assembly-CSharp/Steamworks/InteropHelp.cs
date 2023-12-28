@@ -85,8 +85,8 @@ namespace Steamworks
 		}
 
 		// Token: 0x02000235 RID: 565
-		public class SteamParamStringArray
-		{
+		public class SteamParamStringArray : SteamParamStringArrayBase
+        {
 			// Token: 0x06000D50 RID: 3408 RVA: 0x0000FBF8 File Offset: 0x0000DFF8
 			public SteamParamStringArray(IList<string> strings)
 			{
@@ -114,32 +114,8 @@ namespace Steamworks
 				Marshal.StructureToPtr(steamParamStringArray_t, this.m_pSteamParamStringArray, false);
 			}
 
-			// Token: 0x06000D51 RID: 3409 RVA: 0x0000FD38 File Offset: 0x0000E138
-			protected override void Finalize()
-			{
-				try
-				{
-					foreach (IntPtr hglobal in this.m_Strings)
-					{
-						Marshal.FreeHGlobal(hglobal);
-					}
-					if (this.m_ptrStrings != IntPtr.Zero)
-					{
-						Marshal.FreeHGlobal(this.m_ptrStrings);
-					}
-					if (this.m_pSteamParamStringArray != IntPtr.Zero)
-					{
-						Marshal.FreeHGlobal(this.m_pSteamParamStringArray);
-					}
-				}
-				finally
-				{
-					base.Finalize();
-				}
-			}
-
-			// Token: 0x06000D52 RID: 3410 RVA: 0x0000FDC8 File Offset: 0x0000E1C8
-			public static implicit operator IntPtr(InteropHelp.SteamParamStringArray that)
+            // Token: 0x06000D52 RID: 3410 RVA: 0x0000FDC8 File Offset: 0x0000E1C8
+            public static implicit operator IntPtr(InteropHelp.SteamParamStringArray that)
 			{
 				return that.m_pSteamParamStringArray;
 			}
