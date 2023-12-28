@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEngine.Color;
 
 // Token: 0x0200055C RID: 1372
 public class loadMenu : scrollMenuClass
@@ -41,11 +42,11 @@ public class loadMenu : scrollMenuClass
 			}
 		}
 		IEnumerable<string> source = list;
-		if (loadMenu.<>f__mg$cache0 == null)
+		if (cache0 == null)
 		{
-			loadMenu.<>f__mg$cache0 = new Func<string, DateTime>(DateTime.Parse);
+			cache0 = new Func<string, DateTime>(DateTime.Parse);
 		}
-		list = source.OrderByDescending(loadMenu.<>f__mg$cache0).ToList<string>();
+		list = source.OrderByDescending(cache0).ToList<string>();
 		int num = UnityEngine.Random.Range(0, this.colorList.Length - 1);
 		foreach (saveSlot saveSlot in list2)
 		{
@@ -111,7 +112,7 @@ public class loadMenu : scrollMenuClass
 	[Space(10f)]
 	public Color[] colorList;
 
-	// Token: 0x040022BE RID: 8894
-	[CompilerGenerated]
-	private static Func<string, DateTime> <>f__mg$cache0;
+    // Token: 0x040022BE RID: 8894
+    [CompilerGenerated]
+	private static Func<string, DateTime> cache0;
 }
