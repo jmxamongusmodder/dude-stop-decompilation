@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using UnityEngine;
 
@@ -81,7 +81,7 @@ public class StoryMode_TransitionCat : MonoBehaviour
 	private IEnumerator RotationCoroutine()
 	{
 		yield return new WaitForEndOfFrame();
-		for (; ; )
+		for (;;)
 		{
 			this.RotateAnimal();
 			yield return null;

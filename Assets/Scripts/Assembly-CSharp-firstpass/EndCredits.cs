@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
@@ -361,7 +361,7 @@ public class EndCredits : AbstractUIScreen
 		string txt = this.duckText.text;
 		this.duckText.text = txt + "_";
 		yield return new WaitForSeconds(this.blinkSpeed.x);
-		for (; ; )
+		for (;;)
 		{
 			this.duckText.text = txt + "<color=#00000000>_</color>";
 			yield return new WaitForSeconds(this.blinkSpeed.x);

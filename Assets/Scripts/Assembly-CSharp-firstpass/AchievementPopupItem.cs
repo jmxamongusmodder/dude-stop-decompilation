@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -68,7 +68,7 @@ public class AchievementPopupItem : MonoBehaviour
 	// Token: 0x06001DDC RID: 7644 RVA: 0x00086890 File Offset: 0x00084C90
 	private IEnumerator ShiftByChild()
 	{
-		for (; ; )
+		for (;;)
 		{
 			int ind = this.rt.GetSiblingIndex();
 			if (base.transform.parent.childCount < 2)

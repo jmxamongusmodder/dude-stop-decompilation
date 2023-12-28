@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -184,7 +184,7 @@ public class UIControl : MonoBehaviour
 	// Token: 0x060020C4 RID: 8388 RVA: 0x000A114C File Offset: 0x0009F54C
 	private IEnumerator countFPS()
 	{
-		for (; ; )
+		for (;;)
 		{
 			if (this.fpsFrames != 0)
 			{

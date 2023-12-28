@@ -1,0 +1,35 @@
+﻿using System;
+
+namespace FMOD
+{
+	// Token: 0x020000B9 RID: 185
+	public enum DSP_MULTIBAND_EQ_FILTER_TYPE
+	{
+		// Token: 0x0400038D RID: 909
+		DISABLED,
+		// Token: 0x0400038E RID: 910
+		LOWPASS_12DB,
+		// Token: 0x0400038F RID: 911
+		LOWPASS_24DB,
+		// Token: 0x04000390 RID: 912
+		LOWPASS_48DB,
+		// Token: 0x04000391 RID: 913
+		HIGHPASS_12DB,
+		// Token: 0x04000392 RID: 914
+		HIGHPASS_24DB,
+		// Token: 0x04000393 RID: 915
+		HIGHPASS_48DB,
+		// Token: 0x04000394 RID: 916
+		LOWSHELF,
+		// Token: 0x04000395 RID: 917
+		HIGHSHELF,
+		// Token: 0x04000396 RID: 918
+		PEAKING,
+		// Token: 0x04000397 RID: 919
+		BANDPASS,
+		// Token: 0x04000398 RID: 920
+		NOTCH,
+		// Token: 0x04000399 RID: 921
+		ALLPASS
+	}
+}

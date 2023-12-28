@@ -1,0 +1,19 @@
+﻿using System;
+
+namespace FMOD.Studio
+{
+	// Token: 0x020000EE RID: 238
+	public enum EVENT_PROPERTY
+	{
+		// Token: 0x040004BF RID: 1215
+		CHANNELPRIORITY,
+		// Token: 0x040004C0 RID: 1216
+		SCHEDULE_DELAY,
+		// Token: 0x040004C1 RID: 1217
+		SCHEDULE_LOOKAHEAD,
+		// Token: 0x040004C2 RID: 1218
+		MINIMUM_DISTANCE,
+		// Token: 0x040004C3 RID: 1219
+		MAXIMUM_DISTANCE
+	}
+}

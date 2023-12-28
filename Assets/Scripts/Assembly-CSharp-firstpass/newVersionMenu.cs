@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 
 // Token: 0x0200055E RID: 1374

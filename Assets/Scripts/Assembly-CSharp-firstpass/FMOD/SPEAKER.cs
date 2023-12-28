@@ -1,0 +1,35 @@
+﻿using System;
+
+namespace FMOD
+{
+	// Token: 0x0200002F RID: 47
+	public enum SPEAKER
+	{
+		// Token: 0x04000142 RID: 322
+		FRONT_LEFT,
+		// Token: 0x04000143 RID: 323
+		FRONT_RIGHT,
+		// Token: 0x04000144 RID: 324
+		FRONT_CENTER,
+		// Token: 0x04000145 RID: 325
+		LOW_FREQUENCY,
+		// Token: 0x04000146 RID: 326
+		SURROUND_LEFT,
+		// Token: 0x04000147 RID: 327
+		SURROUND_RIGHT,
+		// Token: 0x04000148 RID: 328
+		BACK_LEFT,
+		// Token: 0x04000149 RID: 329
+		BACK_RIGHT,
+		// Token: 0x0400014A RID: 330
+		TOP_FRONT_LEFT,
+		// Token: 0x0400014B RID: 331
+		TOP_FRONT_RIGHT,
+		// Token: 0x0400014C RID: 332
+		TOP_BACK_LEFT,
+		// Token: 0x0400014D RID: 333
+		TOP_BACK_RIGHT,
+		// Token: 0x0400014E RID: 334
+		MAX
+	}
+}

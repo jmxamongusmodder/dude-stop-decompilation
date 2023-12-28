@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -104,10 +104,10 @@ namespace DudeStop.Analytics
 		protected void SendReports(int entryCount)
 		{
 			IEnumerable<Entry> enumerable = (from x in this.entries
-											 orderby x.time
-											 select x).Take(entryCount);
+			orderby x.time
+			select x).Take(entryCount);
 			string[] value = (from x in enumerable
-							  select JsonUtility.ToJson(x)).ToArray<string>();
+			select JsonUtility.ToJson(x)).ToArray<string>();
 			string value2 = "[" + string.Join(",", value) + "]";
 			if (string.IsNullOrEmpty(this.saveId))
 			{
@@ -128,7 +128,7 @@ namespace DudeStop.Analytics
 				string s = this.userId + this.sessionId;
 				byte[] source = this.sha.ComputeHash(Encoding.UTF8.GetBytes(s));
 				string text = string.Join(string.Empty, (from c in source
-														 select c.ToString("x2")).ToArray<string>());
+				select c.ToString("x2")).ToArray<string>());
 				StringBuilder stringBuilder = new StringBuilder();
 				for (int i = 0; i < 10; i++)
 				{

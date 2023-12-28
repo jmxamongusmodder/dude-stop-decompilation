@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 // Token: 0x02000518 RID: 1304
 public enum AnimationEvent

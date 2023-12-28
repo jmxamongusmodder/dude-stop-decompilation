@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using DudeStop.Analytics;
 using UnityEngine;
@@ -74,18 +74,18 @@ public class AnalyticsComponent : MonoBehaviour, IContainer
 		string text = "LOG_MESSAGE";
 		switch (type)
 		{
-			case LogType.Error:
-				text = "LOG_ERROR";
-				break;
-			case LogType.Assert:
-				text = "LOG_ASSERT";
-				break;
-			case LogType.Warning:
-				text = "LOG_WARNING";
-				break;
-			case LogType.Exception:
-				text = "LOG_EXCEPTION";
-				break;
+		case LogType.Error:
+			text = "LOG_ERROR";
+			break;
+		case LogType.Assert:
+			text = "LOG_ASSERT";
+			break;
+		case LogType.Warning:
+			text = "LOG_WARNING";
+			break;
+		case LogType.Exception:
+			text = "LOG_EXCEPTION";
+			break;
 		}
 		if (text == "LOG_MESSAGE")
 		{

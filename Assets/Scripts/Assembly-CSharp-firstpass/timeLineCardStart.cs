@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -40,7 +40,7 @@ public class timeLineCardStart : AbstractUIScreen
 	public static IEnumerator countTimer(Text textBox, float time)
 	{
 		float total = time;
-		for (; ; )
+		for (;;)
 		{
 			total += Time.deltaTime;
 			TimeSpan timeSpan = TimeSpan.FromSeconds((double)total);

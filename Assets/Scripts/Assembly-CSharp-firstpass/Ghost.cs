@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using UnityEngine;
 
@@ -28,7 +28,7 @@ public class Ghost : MonoBehaviour
 		}
 		spr.enabled = true;
 		Vector2 target = UnityEngine.Random.insideUnitCircle.normalized * this.firstTargetDist;
-		for (; ; )
+		for (;;)
 		{
 			if (!this.collected)
 			{

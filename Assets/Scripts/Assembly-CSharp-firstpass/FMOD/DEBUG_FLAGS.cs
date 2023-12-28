@@ -1,0 +1,32 @@
+﻿using System;
+
+namespace FMOD
+{
+	// Token: 0x0200002C RID: 44
+	[Flags]
+	public enum DEBUG_FLAGS : uint
+	{
+		// Token: 0x04000120 RID: 288
+		NONE = 0U,
+		// Token: 0x04000121 RID: 289
+		ERROR = 1U,
+		// Token: 0x04000122 RID: 290
+		WARNING = 2U,
+		// Token: 0x04000123 RID: 291
+		LOG = 4U,
+		// Token: 0x04000124 RID: 292
+		TYPE_MEMORY = 256U,
+		// Token: 0x04000125 RID: 293
+		TYPE_FILE = 512U,
+		// Token: 0x04000126 RID: 294
+		TYPE_CODEC = 1024U,
+		// Token: 0x04000127 RID: 295
+		TYPE_TRACE = 2048U,
+		// Token: 0x04000128 RID: 296
+		DISPLAY_TIMESTAMPS = 65536U,
+		// Token: 0x04000129 RID: 297
+		DISPLAY_LINENUMBERS = 131072U,
+		// Token: 0x0400012A RID: 298
+		DISPLAY_THREAD = 262144U
+	}
+}

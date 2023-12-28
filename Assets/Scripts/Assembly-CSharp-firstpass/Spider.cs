@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using UnityEngine;
 
@@ -19,7 +19,7 @@ public class Spider : MonoBehaviour
 	private IEnumerator Move()
 	{
 		this.shift = UnityEngine.Random.value * 100f;
-		for (; ; )
+		for (;;)
 		{
 			this.shift += Time.deltaTime * this.speed;
 			float prog = Mathf.PerlinNoise(this.shift, 0f);

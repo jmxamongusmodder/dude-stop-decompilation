@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using FMODUnity;
 
 // Token: 0x02000293 RID: 659

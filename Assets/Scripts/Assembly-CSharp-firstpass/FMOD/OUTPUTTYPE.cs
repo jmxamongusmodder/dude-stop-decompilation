@@ -1,0 +1,59 @@
+﻿using System;
+
+namespace FMOD
+{
+	// Token: 0x0200002A RID: 42
+	public enum OUTPUTTYPE
+	{
+		// Token: 0x04000102 RID: 258
+		AUTODETECT,
+		// Token: 0x04000103 RID: 259
+		UNKNOWN,
+		// Token: 0x04000104 RID: 260
+		NOSOUND,
+		// Token: 0x04000105 RID: 261
+		WAVWRITER,
+		// Token: 0x04000106 RID: 262
+		NOSOUND_NRT,
+		// Token: 0x04000107 RID: 263
+		WAVWRITER_NRT,
+		// Token: 0x04000108 RID: 264
+		DSOUND,
+		// Token: 0x04000109 RID: 265
+		WINMM,
+		// Token: 0x0400010A RID: 266
+		WASAPI,
+		// Token: 0x0400010B RID: 267
+		ASIO,
+		// Token: 0x0400010C RID: 268
+		PULSEAUDIO,
+		// Token: 0x0400010D RID: 269
+		ALSA,
+		// Token: 0x0400010E RID: 270
+		COREAUDIO,
+		// Token: 0x0400010F RID: 271
+		XAUDIO,
+		// Token: 0x04000110 RID: 272
+		PS3,
+		// Token: 0x04000111 RID: 273
+		AUDIOTRACK,
+		// Token: 0x04000112 RID: 274
+		OPENSL,
+		// Token: 0x04000113 RID: 275
+		WIIU,
+		// Token: 0x04000114 RID: 276
+		AUDIOOUT,
+		// Token: 0x04000115 RID: 277
+		AUDIO3D,
+		// Token: 0x04000116 RID: 278
+		ATMOS,
+		// Token: 0x04000117 RID: 279
+		WEBAUDIO,
+		// Token: 0x04000118 RID: 280
+		NNAUDIO,
+		// Token: 0x04000119 RID: 281
+		WINSONIC,
+		// Token: 0x0400011A RID: 282
+		MAX
+	}
+}

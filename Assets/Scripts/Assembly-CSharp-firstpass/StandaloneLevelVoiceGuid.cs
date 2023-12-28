@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 // Token: 0x020004F3 RID: 1267
 public class StandaloneLevelVoiceGuid

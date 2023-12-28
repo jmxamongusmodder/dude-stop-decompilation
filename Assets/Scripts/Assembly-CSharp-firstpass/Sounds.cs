@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 // Token: 0x0200047E RID: 1150
 public static class Sounds

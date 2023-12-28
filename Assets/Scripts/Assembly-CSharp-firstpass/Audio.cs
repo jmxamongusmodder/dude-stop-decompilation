@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -283,11 +283,11 @@ public class Audio : MonoBehaviour
 			return;
 		}
 		(from x in list
-		 where !this.BankLoaded.Contains(x)
-		 select x).ToList<string>().ForEach(delegate (string x)
-		 {
-			 RuntimeManager.LoadBank(x, false);
-		 });
+		where !this.BankLoaded.Contains(x)
+		select x).ToList<string>().ForEach(delegate(string x)
+		{
+			RuntimeManager.LoadBank(x, false);
+		});
 		this.BankLoaded = this.BankLoaded.Union(list).ToList<string>();
 	}
 
@@ -314,9 +314,9 @@ public class Audio : MonoBehaviour
 			yield return null;
 		}
 		list = (from x in list
-				where !this.BankAlwaysLoaded.Contains(x) && this.BankLoaded.Contains(x)
-				select x).ToArray<string>();
-		list.ToList<string>().ForEach(delegate (string x)
+		where !this.BankAlwaysLoaded.Contains(x) && this.BankLoaded.Contains(x)
+		select x).ToArray<string>();
+		list.ToList<string>().ForEach(delegate(string x)
 		{
 			RuntimeManager.UnloadBank(x);
 		});
@@ -348,11 +348,11 @@ public class Audio : MonoBehaviour
 			yield return null;
 		}
 		(from x in this.BankLoaded
-		 where !this.BankAlwaysLoaded.Contains(x)
-		 select x).ToList<string>().ForEach(delegate (string x)
-		 {
-			 RuntimeManager.UnloadBank(x);
-		 });
+		where !this.BankAlwaysLoaded.Contains(x)
+		select x).ToList<string>().ForEach(delegate(string x)
+		{
+			RuntimeManager.UnloadBank(x);
+		});
 		this.BankLoaded.RemoveAll((string x) => !this.BankAlwaysLoaded.Contains(x));
 		this.unloadingBank = null;
 		yield break;

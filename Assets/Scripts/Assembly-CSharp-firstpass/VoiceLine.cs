@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -20,19 +20,19 @@ public class VoiceLine
 		if (this.info.fmodName.Contains("event:/"))
 		{
 			Audio.self.audioDebug.getEventDescription(this.info.guid, out this.info.fmodName);
-			if (VoiceLine.<> f__mg$cache0 == null)
+			if (VoiceLine.<>f__mg$cache0 == null)
 			{
-				VoiceLine.<> f__mg$cache0 = new EVENT_CALLBACK(VoiceLine.markerFound);
+				VoiceLine.<>f__mg$cache0 = new EVENT_CALLBACK(VoiceLine.markerFound);
 			}
-			this.voice.setCallback(VoiceLine.<> f__mg$cache0, EVENT_CALLBACK_TYPE.STOPPED | EVENT_CALLBACK_TYPE.TIMELINE_MARKER);
+			this.voice.setCallback(VoiceLine.<>f__mg$cache0, EVENT_CALLBACK_TYPE.STOPPED | EVENT_CALLBACK_TYPE.TIMELINE_MARKER);
 		}
 		else
 		{
-			if (VoiceLine.<> f__mg$cache1 == null)
+			if (VoiceLine.<>f__mg$cache1 == null)
 			{
-				VoiceLine.<> f__mg$cache1 = new EVENT_CALLBACK(VoiceLine.markerFound);
+				VoiceLine.<>f__mg$cache1 = new EVENT_CALLBACK(VoiceLine.markerFound);
 			}
-			this.voice.setCallback(VoiceLine.<> f__mg$cache1, EVENT_CALLBACK_TYPE.STOPPED | EVENT_CALLBACK_TYPE.CREATE_PROGRAMMER_SOUND | EVENT_CALLBACK_TYPE.DESTROY_PROGRAMMER_SOUND | EVENT_CALLBACK_TYPE.TIMELINE_MARKER);
+			this.voice.setCallback(VoiceLine.<>f__mg$cache1, EVENT_CALLBACK_TYPE.STOPPED | EVENT_CALLBACK_TYPE.CREATE_PROGRAMMER_SOUND | EVENT_CALLBACK_TYPE.DESTROY_PROGRAMMER_SOUND | EVENT_CALLBACK_TYPE.TIMELINE_MARKER);
 		}
 	}
 
@@ -499,9 +499,9 @@ public class VoiceLine
 
 	// Token: 0x0400105C RID: 4188
 	[CompilerGenerated]
-	private static EVENT_CALLBACK<> f__mg$cache0;
+	private static EVENT_CALLBACK <>f__mg$cache0;
 
 	// Token: 0x0400105D RID: 4189
 	[CompilerGenerated]
-	private static EVENT_CALLBACK<> f__mg$cache1;
+	private static EVENT_CALLBACK <>f__mg$cache1;
 }
