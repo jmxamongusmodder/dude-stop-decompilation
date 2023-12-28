@@ -1,3 +1,5 @@
 
 CompiledBuild/test.txt
 Assets/Scripts/.vs/slnx.sqlite
+Assets/Scripts/.vs/slnx.sqlite
+*.sqlite
